@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/img/emptyMsgWidget.png</file>
+    </qresource>
+</RCC>
