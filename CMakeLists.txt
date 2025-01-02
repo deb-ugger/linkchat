@@ -28,6 +28,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
 
         resource.qrc
+        loginwidget.h loginwidget.cpp loginwidget.ui
+        registerwidget.h registerwidget.cpp registerwidget.ui
+        message_type_enum.h
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET linkchat APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
